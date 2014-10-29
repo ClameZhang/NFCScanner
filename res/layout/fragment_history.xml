@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:background="@drawable/content_bg_white"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center|center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="@string/history_text_title_count_1"
+                android:textColor="@color/title_text_black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_history_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/history_text_title_count_2"
+                android:textColor="@color/content_text_blue"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/history_text_title_count_3"
+                android:textColor="@color/title_text_black"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical" >
+
+            <Button
+                android:id="@+id/btn_history_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/content_text_green"
+                android:padding="5dp"
+                android:text="@string/history_text_title_button"
+                android:textColor="@color/content_text_white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/content_bg_white"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_history_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:maxLength="14"
+            android:hint="@string/history_text_search_hint"
+            android:textColor="@color/title_text_black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_history_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:divider="#b0b0b0"
+            android:dividerHeight="1px" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

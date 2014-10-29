@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFC苦力</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splash_title">NFC苦力</string>
+    <string name="bottombar_text_scan">扫描</string>
+    <string name="bottombar_text_history">历史</string>
+    <string name="main_folder_create_error">文件操作失败！</string>
+    <string name="menu_title">请选择退出方式</string>
+    <string name="menu_item_1">清空并退出</string>
+    <string name="menu_item_2">直接退出</string>
+    <string name="menu_item_3">取消</string>
+    <string name="scan_text_title_count_1">已扫描：</string>
+    <string name="scan_text_title_count_2">67</string>
+    <string name="scan_text_title_count_3">个</string>
+    <string name="scan_text_title_button_1">开始</string>
+    <string name="scan_text_title_button_2">暂停</string>
+    <string name="scan_text_title_button_3">继续</string>
+    <string name="scan_text_current_exist">已存在</string>
+    <string name="scan_text_title_content">最近五次扫描</string>
+    <string name="scan_text_title_content_num_1">1.</string>
+    <string name="scan_text_title_content_num_2">2.</string>
+    <string name="scan_text_title_content_num_3">3.</string>
+    <string name="scan_text_title_content_num_4">4.</string>
+    <string name="scan_text_title_content_num_5">5.</string>
+    <string name="history_text_title_count_1">标签数：</string>
+    <string name="history_text_title_count_2">0</string>
+    <string name="history_text_title_count_3">个</string>
+    <string name="history_text_title_button">保存</string>
+    <string name="history_text_search_hint">请输入要检索的ID</string>
+    <string name="history_list_operate_title">请选择你的操作</string>
+    <string name="history_list_operate_delete">删除</string>
+    <string name="history_list_operate_cancel">取消</string>
+    <string name="history_save_dialog_title">请输入要保存的文件名</string>
+    <string name="history_save_dialog_save">确定</string>
+    <string name="history_save_dialog_cancel">取消</string>
+    <string name="main_nonfc_warning">设备不支持NFC\n无法使用验证功能\n请退出</string>
+    <string name="main_nfcclose_warning">NFC功能未启用\n请打开手机的NFC功能</string>
+    <string name="main_scan_warning">NFC功能正常\n请扫描防伪标签</string>
+
+</resources>
